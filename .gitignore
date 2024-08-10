@@ -1,0 +1,134 @@
+# Directorios específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de log
+*.log
+*.log.*
+
+# Directorios de build de Maven y Gradle
+/target/
+/build/
+
+# Dependencias locales de Maven
+.mvn/
+**/mvnw*
+**/mvnw.cmd
+
+# Directorios de configuración de IDEs
+/.idea/
+/*.iml
+/*.ipr
+/*.iws
+
+# Archivos y directorios generados por Eclipse
+/.classpath
+/.project
+/.settings/
+/bin/
+/.apt_generated/
+/.autosave/
+/.metadata/
+/.recommenders/
+/remoteSystemTempFiles/
+
+# Archivos y directorios generados por IntelliJ IDEA
+/.idea/
+/*.iws
+/*.iml
+/*.ipr
+/out/
+
+# Directorios de configuración de NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+# Directorios de configuración de VS Code
+/.vscode/
+
+# Archivos y directorios de cobertura de pruebas
+/coverage/
+/.jacoco/
+/.jacoco-resources/
+*.exec
+*.ec
+*.cov
+*.clover
+**/test/
+**/test-results/
+**/test-results/*
+
+# Archivos de distribución
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# Variables de entorno y archivos de configuración sensibles
+.env
+.env.*
+
+# Directorios de configuración de gradle
+.gradle
+.gradle/
+/build/
+/out/
+/wrapper/
+
+# Archivos generados por gradle
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos de configuración de sistema
+/USER/config
+
+# Archivos y directorios de docker
+**/docker-compose.yml
+**/Dockerfile
+
+# Archivos de configuración de OS específicos
+*.swp
+*.swo
+*~
+
+# Archivos de configuración de logs de aplicaciones
+**/*.log
+
+# Archivos de base de datos H2
+*.h2.db
+*.mv.db
+
+# Archivos de configuración de seguridad
+.security/
+
+# Dependencias locales
+**/node_modules
+**/npm-debug.log
+**/yarn-error.log
+**/yarn-debug.log
+**/pids
+**/pid
+**/pid.lock
+
+# Otros archivos temporales
+tmp/
+temp/
+
+# Archivos de configuración de pruebas
+*.test.js
+
+# Archivos y directorios de caché
+**/.cache
+**/cache
+**/.snapshots
+**/snapshot
+
+# Archivos de configuración de IDEs secundarios
+/.springBeans
+/.springBeans/**
+/.sass-cache/
